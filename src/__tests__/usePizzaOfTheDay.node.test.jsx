@@ -32,4 +32,4 @@ test("to call the API and give back the pizza of the day", async () => {
     expect(result.current).toEqual(testPizza);
   });
   expect(fetchMocker).toBeCalledWith("/api/pizza-of-the-day");
-});
+});2
