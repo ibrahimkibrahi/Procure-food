@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { StrictMode } from "react";
+import { StrictMode } from "react"; 
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 import { BrowserRouter } from 'react-router-dom'
